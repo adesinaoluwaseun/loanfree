@@ -1,5 +1,5 @@
 body {
-background: purple;
+background: rgb(36, 3, 36);
 }
 .container{
     /* padding-left: 370px; */
@@ -13,7 +13,7 @@ header {
     align-content: center;
 }
 .main-content{
-    background-color: rgb(228, 203, 203);
+    background-color: rgb(97, 71, 71);
     padding: 60px;
     border-radius: 50px;
     width: 100%;
@@ -91,7 +91,7 @@ h1{
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    color:#004e92;
+    color:#072138;
     font-size: 22px;
     margin-bottom:30px;
 }
