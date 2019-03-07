@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Loan Amount App</title>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+                <h1 class="text-center">Loan Budget Display</h1>
+        </header>
+        <section class="main-content">
+            <div class="row">
+                <div class="col ">
+                    <div class="content primary">
+                        <div>
+                        <h2 class="text-center">Add your Loan Budget here...</h2>
+                        <!-- <button type="submit" class="clear">Clear</button> -->
+                        </div>
+
+                            <form id="form" action="#">
+                                <div class="form-group">
+                                    <label for="amount">Loan Amount</label>
+                                    <input type="text" class="form-control" id="loanAmount">
+                                </div>
+                                <div class="form-group">
+                                    <label for="amount">Interest Rate</label>
+                                    <input type="text" class="form-control" id="interestRate">
+                                </div>
+                                <div class="periodofloan">
+                                    <div class="loanp">
+                                    <label for="amount">Loan Period</label>
+                                    <input type="text" class="form-control" id="loanPeriod">
+                                    </div>
+                                    <div class="ploan">
+                                        <select name="name" id="periodType">
+                                            <option value="week">week</option>
+                                            <option value="month">month</option>
+                                            <option value="year">year</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                    <div class="button">
+                                        <div>
+                                    <button type="submit" class="add">Submit</button>
+                                    <button type="submit" class="clear">Clear</button>
+                                        </div>
+                                </div>
+                            </form>
+                        
+                    </div> 
+                </div> 
+            </div>
+        </section>
+    </div>
+    <script src="js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    <script src="js/loan.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

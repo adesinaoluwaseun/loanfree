@@ -1,0 +1,104 @@
+body {
+background: purple;
+}
+.container{
+    /* padding-left: 370px; */
+}
+
+header {
+    margin: 30px 0;
+    /* padding-left: 10px */
+}
+.content {
+    align-content: center;
+}
+.main-content{
+    background-color: rgb(228, 203, 203);
+    padding: 60px;
+    border-radius: 50px;
+    width: 100%;
+    
+}
+#loanAmount{
+    border-radius: 50px;
+}
+
+#interestRate{
+    border-radius: 50px;
+}
+
+#loan-budget{
+    border-radius: 50px;
+}
+
+#loanPeriod{
+    border-radius: 50px;
+    /* width: 300px; */
+}
+.loanp{
+  width: 300px;
+  padding-top: 30px;
+  height: 70px;
+}
+
+.ploan{
+    border-radius: 50%;
+    padding-left: 320px;
+    padding-bottom: 50px;
+}
+
+#periodType{
+    border-radius: 50px;
+}
+
+#add{
+    padding: -50px;
+}
+
+.add{
+    padding-left: 30px;
+    width: 90px;
+    border-radius: 50px;
+    background-color: #23b423
+}
+
+.clear{
+    width: 90px;
+    border-radius: 50px;
+    background-color: red; 
+}
+
+.periodofloan{
+    /* background-color: black; */
+    /* width: 50px */
+}
+
+.budget p{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.budget p span {
+    font-weight: normal;
+}
+#expenses {
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color:#004e92;
+    font-size: 22px;
+    margin-bottom:30px;
+}
+.button{
+    padding-top: 40px;
+    padding-left: 40%;
+}
+
+
+
